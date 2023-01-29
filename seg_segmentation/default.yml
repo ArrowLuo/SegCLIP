@@ -1,0 +1,23 @@
+train:
+  amp_opt_level: O0
+
+evaluate:
+  eval_only: false
+  eval_freq: 1
+  task:
+    - cls
+    - seg
+  cls:
+    save_best: true
+    template: subset
+  seg:
+    save_best: true
+    cfg: seg_segmentation/configs/_base_/datasets/coco.py
+    template: simple
+    opts: []
+
+model_name: 'seg' # display name in the logger
+output: ???
+tag: default
+local_rank: ???
+vis: []
