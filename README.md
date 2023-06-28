@@ -130,8 +130,8 @@ If you think this code is helpful or instructive in your research, please cite:
 @Article{Luo2022SegCLIP,
   author  = {Huaishao Luo and Junwei Bao and Youzheng Wu and Xiaodong He and Tianrui Li},
   title   = {{SegCLIP}: Patch Aggregation with Learnable Centers for Open-Vocabulary Semantic Segmentation},
-  journal = {arXiv preprint arXiv:2211.14813},
-  year    = {2022},
+  journal = {ICML},
+  year    = {2023},
 }
 ```
 
