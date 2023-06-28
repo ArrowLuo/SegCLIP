@@ -127,7 +127,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_
 ## Citation
 If you think this code is helpful or instructive in your research, please cite:
 ```bibtex
-@Article{Luo2022SegCLIP,
+@Article{Luo2023SegCLIP,
   author  = {Huaishao Luo and Junwei Bao and Youzheng Wu and Xiaodong He and Tianrui Li},
   title   = {{SegCLIP}: Patch Aggregation with Learnable Centers for Open-Vocabulary Semantic Segmentation},
   journal = {ICML},
